@@ -150,13 +150,13 @@ def edit_project():
         start_date = input(f"Start Date `{project['start_date']}`: ") or project["start_date"]
         if re.fullmatch(r'\d{2}-\d{2}-\d{4}', start_date):
             break
-        print("Invalid start date. Use YYYY-MM-DD format.")
+        print("Invalid start date. Use DD-MM-YYYY format.")
 
     while True:
         end_date = input(f"End Date `{project['end_date']}`: ") or project["end_date"]
         if re.fullmatch(r'\d{2}-\d{2}-\d{4}', end_date):
             break
-        print("Invalid end date. Use YYYY-MM-DD format.")
+        print("Invalid end date. Use DD-MM-YYYY format.")
         
     project = {
         "title": title,
