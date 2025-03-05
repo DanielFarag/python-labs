@@ -1,0 +1,42 @@
+{
+    "auth": {},
+    "users": [
+        {
+            "first_name": "daniel",
+            "last_name": "farag",
+            "email": "danielfarag146@gmail.com",
+            "password": "password",
+            "mobile_phone": "01234508013",
+            "id": 1
+        }
+    ],
+    "projects": [
+        {
+            "title": "test 3",
+            "details": "danielfarag",
+            "target": "405555",
+            "start_date": "20-01-2016",
+            "end_date": "20-01-2018",
+            "id": 2,
+            "user_id": 1
+        },
+        {
+            "title": "test",
+            "details": "adas sadasds",
+            "target": "40200",
+            "start_date": "20-01-2016",
+            "end_date": "20-01-2018",
+            "id": 3,
+            "user_id": 3
+        },
+        {
+            "title": "test",
+            "details": "adas sadasds",
+            "target": "40200",
+            "start_date": "20-01-2016",
+            "end_date": "20-01-2018",
+            "id": 4,
+            "user_id": 1
+        }
+    ]
+}

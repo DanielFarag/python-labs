@@ -1,0 +1,31 @@
+#!/usr/bin/python3
+
+import os
+
+from modules.setup import start
+from modules.db import isAuth
+
+
+from modules.auth import registerForm, loginForm
+from modules.products import projectsForm
+
+
+start()
+
+while isAuth() == False:
+    os.system('clear')
+
+    action = input("Login / Register [L/R or exit]: ")
+
+    if(action.lower() == "l"):
+        loginForm()
+
+    if(action.lower() == "r"):
+        registerForm()
+
+    if(action.lower() == "exit"):
+        exit()
+
+
+projectsForm()
+
